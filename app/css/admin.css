@@ -1,0 +1,86 @@
+/* Admin Container */
+.admin-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Admin Image Container */
+.admin-image {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.admin-image img {
+  margin: 10px;
+}
+
+/* Admin Content */
+.admin-content {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Admin Table */
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Admin Action */
+.admin-action {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+}
+
+.admin-action button {
+  width: 100%;
+  max-width: 200px;
+}
+
+/* Admin Box */
+.admin-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  justify-items: center;
+}
+
+.admin-box a {
+  margin: 10px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 100%;
+  max-width: 200px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.admin-box a:hover {
+  background-color: #0069d9;
+}
+
+.admin-box a:active {
+  background-color: #0056b3;
+}

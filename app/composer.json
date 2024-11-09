@@ -1,0 +1,7 @@
+{
+    "require": {
+        "stripe/stripe-php": "^15.6",
+        "resend/resend-php": "^0.13.0",
+        "chillerlan/php-qrcode": "^5.0"
+    }
+}
